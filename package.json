@@ -1,0 +1,41 @@
+{
+  "name": "ae-video-component",
+  "version": "0.0.1",
+  "description": "adaept Video Component",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/ae-video-component/ae-video-component.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.1.3",
+    "@types/jest": "24.0.15",
+    "@types/puppeteer": "1.12.4",
+    "jest": "24.8.0",
+    "jest-cli": "24.8.0",
+    "puppeteer": "1.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaept/ae-icons-component.git"
+  },
+  "author": "adaept",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adaept/ae-video-component"
+  },
+  "homepage": "https://github.com/adaept/ae-video-component"
+}
